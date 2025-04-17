@@ -54,13 +54,13 @@ const signupUser = async (req, res) => {
       { expiresIn: "7d" }
     );
 
-    // Set cookie and send response
+    // Set cookie and send response with Bearer token format
     res
       .cookie("token", token)
       .status(201)
       .json({
         message: "User created successfully",
-        token: token
+        token: `Bearer ${token}`
       });
   } catch (error) {
     await console.log(error);
@@ -93,13 +93,13 @@ const signinUser = async (req, res) => {
       { expiresIn: "7d" }
     );
 
-    // Set cookie and send response
+    // Set cookie and send response with Bearer token format
     res
       .cookie("token", token)
       .status(200)
       .json({
         message: "Signin successful",
-        token: token
+        token: `Bearer ${token}`
       });
 
   } catch (error) {
