@@ -60,7 +60,15 @@ Komplett E-commerce Backend är ett REST API som erbjuder grundläggande CRUD-op
 
 ### Steg 2: Testa API:et
 
-API:et kan testas med Postman eller liknande verktyg. Följande endpoints finns tillgängliga:
+API:et kan testas med Postman här är länken till testing:
+
+https://.postman.co/workspace/My-Workspace~e6af0041-d0ca-4fdc-89a5-3ab22cff66ac/collection/43137523-08629a8c-fe3d-4e2c-b16e-4a3fc49a1389?action=share&creator=43137523
+
+skicka en begära för att ta del av postman testing för enklare testning.
+
+Följande endpoints finns tillgängliga:
+
+
 
 #### Autentisering
 
