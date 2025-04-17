@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/", require("./Routes/authRoutes"));
 app.use("/api", require("./Routes/productRoutes"));
 app.use("/api", require("./Routes/messageRoutes"));
+app.use("/api", require("./Routes/orderRoutes"));
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(`Server started on port ${port}`));
